@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-ios-disable-non-exempt-encryption"
+        version="0.0.1">
+    <name>Disable App Uses Non-Exempt Encryption</name>
+    <description>ITSAppUsesNonExemptEncryption NO</description>
+    <platform name="ios">
+        <config-file target="*-Info.plist" parent="ITSAppUsesNonExemptEncryption">
+            <false/>
+        </config-file>
+    </platform>
+</plugin>
