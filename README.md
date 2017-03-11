@@ -1,3 +1,3 @@
 # cordova-plugin-ios-disable-non-exempt-encryption
 
-&lt;key>ITSAppUsesNonExemptEncryption&lt;/key>&lt;false/>
+This plugin will set the `ITSAppUsesNonExemptEncryption` key to `false` in your *-Info.plist file
