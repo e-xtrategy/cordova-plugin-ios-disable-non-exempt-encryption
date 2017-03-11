@@ -3,7 +3,8 @@
         id="cordova-plugin-ios-disable-non-exempt-encryption"
         version="0.0.1">
     <name>Disable Non-Exempt Encryption</name>
-    <description>Sets the ITSAppUsesNonExemptEncryption key to false</description>
+    <description>The ITSAppUsesNonExemptEncryption key will be set to false</description>
+    <author>Giorgio Mandolini</author>
     <platform name="ios">
         <config-file target="*-Info.plist" parent="ITSAppUsesNonExemptEncryption">
             <false/>
