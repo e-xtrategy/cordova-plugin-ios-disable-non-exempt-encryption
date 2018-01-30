@@ -1,0 +1,6 @@
+{
+  "name": "cordova-plugin-ios-disable-non-exempt-encryption",
+  "version": "0.0.1",
+  "description": "The ITSAppUsesNonExemptEncryption key will be set to false",
+  "author": "Giorgio Mandolini"
+}
